@@ -12,6 +12,10 @@ Unreleased
 - Add support for optional Markdown-formatted ``selftext`` when submitting link, image,
   gallery, and video posts.
 
+**Fixed**
+
+- Fix API endpoint for :meth:`.Submission.hide` and :meth:`.Submission.unhide`.
+
 **Changed**
 
 - Bumped prawcore to 3.0.2.
